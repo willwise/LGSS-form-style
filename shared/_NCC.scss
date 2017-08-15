@@ -6,15 +6,29 @@ body {
   background-color: #fff; }
 
 #header {
-  background-color: #FFFFFF;
+  background-color: #7F1183;
   /* Live color below */
   /*background-color: #7f1183;*/ }
 
 .col-md-8 {
   display: none; }
 
+.col-md-4 {
+
+  #ncc-logo {
+    display: block;
+  }
+
+  #lgss-logo {
+    display:none;
+  }
+}
+
 .brand-image {
-  margin: 10px auto; }
+  margin: 20px 0;
+  max-height: 110px;
+  width: auto;
+}
 
 #navigation:before {
   background-color: #323232;
@@ -44,7 +58,17 @@ a.btn.btn-lg.btn-primary.top:hover {
 .FooterArea {
   background-color: #7F1183;
   color: #fff;
-  box-shadow: 0px 1000px 0px 1000px #7F1183; }
+  box-shadow: 0px 1000px 0px 1000px #7F1183;
+
+  #NCC-Footer {
+    display: block;
+  }
+
+  #LGSS-Footer {
+    display: none;
+  }
+
+  }
 
 .FooterArea {
   margin-top: 0;
