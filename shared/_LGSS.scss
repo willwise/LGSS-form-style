@@ -1,3 +1,31 @@
 #header {
 	background-color: #0B1833;
 }
+
+.col-md-4 {
+	#ncc-logo {
+		display: none;
+	}
+
+  	#lgss-logo {
+		//background-image: url("https://fs-filestore-eu.s3.amazonaws.com/northamptonshire/Branding/NewPlatformTest/self%20test/TestPortalBranding/LGSSLogo2016.png");
+		//background-repeat: no-repeat;
+		display: block;
+		//background-size: auto 100%;
+		//height: 100px;
+	}
+}
+
+.FooterArea {
+	background-color: #0B1833;
+	box-shadow: 0px 1000px 0px 1000px #0B1833;
+
+	#NCC-Footer {
+		display: none;
+	}
+
+	#LGSS-Footer {
+		display: block;
+	}
+
+}
