@@ -7,23 +7,25 @@ body {
 
 #header {
   background-color: #7F1183;
-  /* Live color below */
-  /*background-color: #7f1183;*/ }
+}
 
 .col-md-8 {
-  display: none; }
+  display: none; 
+}
 
 .col-md-4 {
 
   #ncc-logo {
     display: block;
   }
-
   #lgss-logo {
-    display:none;
+    display: none;
   }
   #YouthWorks-logo {
-    display:none;
+    display: none;
+  }
+  #FireRescue-logo{
+    display: none;
   }
 }
 
@@ -66,14 +68,16 @@ a.btn.btn-lg.btn-primary.top:hover {
   #NCC-Footer {
     display: block;
   }
-
   #LGSS-Footer {
     display: none;
   }
   #YouthWorks-Footer {
     display: none;
   }
+  #PrivacyNotice-Footer {
+    display: none;
   }
+}
 
 .FooterArea {
   margin-top: 0;
