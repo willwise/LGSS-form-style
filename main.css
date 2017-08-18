@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400\,400italic,700,700italic);
+body {
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  background-color: #fff; }
+
+#header {
+  background-color: #0B1833; }
+
+.col-md-8 {
+  display: none; }
+
+.col-md-4 #lgss-logo {
+  display: block; }
+
+.brand-image {
+  margin: 20px 0;
+  max-height: 110px;
+  width: auto; }
+
+#navigation:before {
+  background-color: #323232;
+  content: "";
+  height: 46px;
+  width: 100%;
+  left: 0;
+  position: absolute; }
+
+a.btn.btn-lg.btn-primary.top {
+  padding: 8px;
+  background-color: #323232;
+  border-color: #323232;
+  font-size: 15px;
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  border-radius: 0; }
+
+.btn.active .caret {
+  display: none !important; }
+
+a.btn.btn-lg.btn-primary.top.active {
+  border-bottom: 2px solid #ffffff; }
+
+a.btn.btn-lg.btn-primary.top:hover {
+  background-color: #3d3d3d; }
+
+.FooterArea {
+  background-color: #0B1833;
+  color: #fff;
+  box-shadow: 0px 1000px 0px 1000px #0B1833; }
+  .FooterArea #LGSS-Footer {
+    display: block; }
+
+.FooterArea {
+  margin-top: 0;
+  text-align: center;
+  background-color: #0B1833;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  width: 100%; }
+
+div.FooterText {
+  padding-top: 30px; }
+
+div.FooterLinks {
+  padding-top: 10px; }
+
+.FooterLinks ul li a {
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #fff; }
+
+.FooterLinksInner ul {
+  padding-left: 0; }
+
+.FooterLinks ul li:first-child {
+  border: none; }
+
+.FooterLinks ul li {
+  border-left-color: #fff;
+  display: inline-block;
+  border-left: solid 1px #fff; }
+
+a.navbar-brand {
+  display: none; }
+
+a#navDropdownToggle {
+  background-color: #323232;
+  border: 0px;
+  font-family: "Open Sans";
+  position: relative; }
+
+/*mobile view*/
+@media (max-width: 743px) {
+  .FooterLinks ul li {
+    display: block;
+    border: 0px; }
+
+  ul#session-badge {
+    float: right;
+    display: inline-block;
+    margin-right: 1em; }
+
+  ul#session-badge li, ul#session-badge li a {
+    display: inline-block; }
+
+  ul#session-badge {
+    /*width: 100%;*/ } }
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  padding-top: 5px;
+  margin-bottom: 15px; }
+
+h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-top: 30px !important;
+  margin-bottom: 15px;
+  border-bottom: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+
+h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 20px 0 15px;
+  color: #262626;
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif; }
+
+#navigation ul.nav li a {
+  color: #ffffff;
+  background-color: #323232; }
+
+#navigation ul.nav li a:hover {
+  background-color: #3d3d3d; }
+
+#SelfToolbar .login-link, #toolbar .login-link {
+  display: inline-block;
+  float: left; }
+
+#navigation ul.nav li {
+  border: 0px; }
+
+.btn-group.visible-xs.col-xs-12.clearfix {
+  padding: 0px; }
+
+.navbar-nav {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; }
+
+#navigation ul.nav li:first-child {
+  border: 0px; }
+
+.navbar.clearfix {
+  border: 0px; }
+
+.dropdown-toggle .fa-ellipsis-v:before {
+  content: "More...";
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 0.8em;
+  padding-top: 5px; }
+
+i.pull-right.fa.fa-ellipsis-v {
+  position: absolute;
+  right: 0.5em; }
+
+.btn-group.hidden-xs.clearfix {
+  margin-top: 4px !important; }
+
+p {
+  font-family: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-weight: normal; }
+
+/*5-star rating buttons*/
+.submitRating, .skipRatingStep {
+  margin-bottom: 20px; }
+
+/*
+   Service rating submit button
+   can the icon be removed
+   */
+.submitRating::after {
+  content: none !important; }
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */
