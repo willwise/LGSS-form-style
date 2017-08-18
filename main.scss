@@ -1,1 +1,20 @@
 @import "shared/LGSS";
+
+.AF-Category-NCC {
+    @import "shared/NCC";
+}
+.AF-Category-YouthWorks {
+	@import "shared/YouthWorks";
+}	
+.AF-Category-Highways{
+	@import "shared/Highways";
+}
+.AF-Category-FireRescue{
+	@import "shared/FireRescue";
+}
+.AF-Category-NSCB{
+	@import "shared/NSCB";
+}
+.AF-Category-FfW{
+	@import "shared/FfW";
+}

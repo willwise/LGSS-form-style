@@ -1,0 +1,26 @@
+#header {
+  background-color: #7F1183;
+}
+
+.col-md-4 {
+  #LGSS-logo {
+    display: none;
+  }
+  #ncc-logo{
+    display: block;
+  }
+}
+
+.FooterArea {
+  background-color: #7F1183;
+  box-shadow: 0px 1000px 0px 1000px #7F1183;
+
+  #LGSS-Footer {
+    display: none;
+  }
+
+  #NCC-Footer {
+    display: block;
+    color: #000000;
+  }
+}

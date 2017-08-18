@@ -1,0 +1,39 @@
+#header {
+	background-color: #CCCCCC;
+}
+
+.col-md-4 {
+	#LGSS-logo {
+		display: none;
+	}
+
+  	#YouthWorks-logo {
+		display: block
+	}
+}
+
+.FooterArea {
+	background-color: #CCCCCC;
+	box-shadow: 0px 1000px 0px 1000px #CCCCCC;
+
+	#LGSS-Footer {
+		display: none;
+	}
+
+	#YouthWorks-Footer {
+		display: block;
+		color: #000000;
+	}
+
+}
+
+
+.cancelbutton, .submitbutton, .previousbutton{
+	background-color: #CCCCCC;
+	border-color: #CCCCCC;
+}
+
+.cancelbutton:hover, .submitbutton:hover, .previousbutton:hover{
+	background-color: #D7D7D7; 
+	border-color: #D7D7D7;
+}
